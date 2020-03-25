@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: springboot-RabbitMq #服务名称
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: root
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: user
+  password: 123456

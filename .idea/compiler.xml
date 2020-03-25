@@ -8,20 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment-8002" />
-        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-eureka-server-7001" />
         <module name="cloud-provider-consul-payment" />
+        <module name="springboot-rabbitMq" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-api-commons" />
-        <module name="cloud-consumerzk-order-80" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-eureka-server-7002" />
         <module name="cloud-consumer-consul-order80" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-provider-zk-payment-8004" />
         <module name="cloud--consumer--fign--hystrix-order80" />
-        <module name="cloud-config-center-3344" />
-        <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-consumerzk-order-80" />
+        <module name="cloud-config-client-3355" />
         <module name="cloud-provider-payment-8004" />
+        <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-center-3344" />
         <module name="cloud-gateway-gateway-9527" />
       </profile>
     </annotationProcessing>
